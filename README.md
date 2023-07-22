@@ -7,7 +7,7 @@
 "orphaned" nodes - a5 and a6 as no links pointing to them
 
 [ path: src/LinearDataStructure/Node.java ]   
-I created a Node class with the fields _String data, Node next, Node previous_ and implemented getters and setters.
+Created a Node class with the fields _String data, Node next, Node previous_ and implemented getters and setters.
 
 
 #### Singly LinkedList
