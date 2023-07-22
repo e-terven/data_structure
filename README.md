@@ -40,7 +40,8 @@ public class Node {
 ##### Swapping Elements
 
 ##### Asymptomatic Analysis
-Space Complexity: O(1) - highly efficientas the algorithm is not influenced by _the data unput_
+Space Complexity: O(1) - highly efficientas the algorithm is not influenced by _the data unput_  
+
 ----  
 
 #### References:  
