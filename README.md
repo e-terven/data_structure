@@ -43,7 +43,7 @@ public class Node {
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/7ceab5b7d1f72099725caf9d0bbc2b55bc9b365c/images/Screenshot%202023-07-22%20at%2021.04.23.png)  
 
-##### Swapping Elements
+##### "Runner" Technique
 
 ##### Asymptomatic Analysis
 Space Complexity: O(1) - highly efficientas the algorithm is not influenced by _the data unput_  
