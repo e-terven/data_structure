@@ -30,9 +30,9 @@ public class Node {
 |   public void addToTail(String data)   |   public void addToTail(String data)*  |
 |----------------------------------------|----------------------------------------|
 |       public String removeHead()       |       public String removeHead()*      |
-|                                        |       public String removeTail()*      |
+|             did not apply              |       public String removeTail()       |
 |----------------------------------------|----------------------------------------| 
-|                                        |  public Node removeByData(String data) |
+|             did not apply              |  public Node removeByData(String data) |
 |----------------------------------------|----------------------------------------|
 |                             public void printList()                             |
 |---------------------------------------------------------------------------------|
