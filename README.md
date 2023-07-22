@@ -25,7 +25,7 @@ public class Node {
 ```java
 |            Singly LinkedList            |             Doubly LinkedList             | |               ArrayList                |
 |-----------------------------------------|-------------------------------------------| |----------------------------------------|
-|   public void addToHead(data) {}  |   public void addToHead(data) {}*   | |                                        |   
+|  public void addToHead(data) {} |  public void addToHead(data) {}*  | |                                        |   
 |    public void addToTail(data) {}   |    public void addToTail(data) {}*    | |                                        |
 |-----------------------------------------|-------------------------------------------| |----------------------------------------|
 |    public String removeHead() {}    |     public String removeHead() {}*    | |                                        |
