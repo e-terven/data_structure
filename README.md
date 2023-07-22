@@ -25,7 +25,7 @@ public class Node {
 ![alt-image](https://github.com/e-terven/data_structure/blob/39639aa04aac755dc68e5dcdc3a24bf1df3957d2/images/Screenshot%202023-07-22%20at%2020.26.49.png)  
 
 
-References:  
+#### References:  
 Codecademy. _"Pass the Technical Interview with Java Skill Path" skillpath.  _
 Simple Snippets. _["Doubly Linked List Data Structure"](https://simplesnippets.tech/doubly-linked-list-data-structure-all-operations-c-program-to-implement-doubly-linked-list/)_
 
