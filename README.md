@@ -22,6 +22,11 @@ public class Node {
   
 
 #### Singly LinkedList vs. Doubly LinkedList
+		
+		
+	a	s
+		d
+		
 ![alt-image](https://github.com/e-terven/data_structure/blob/7ceab5b7d1f72099725caf9d0bbc2b55bc9b365c/images/Screenshot%202023-07-22%20at%2021.04.23.png)  
 
 
