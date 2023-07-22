@@ -7,7 +7,8 @@
 "orphaned" nodes - a5 and a6 as no links pointing to them
 
 ` path: src/LinearDataStructure/Node.java ` where a Node class was created with the fields:
-```private String data;
+```java
+private String data;
 private Node next;
 private Node previous;```
 
