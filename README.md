@@ -22,7 +22,7 @@ public class Node {
   
 
 
-```no-highlight
+```
 |            Singly LinkedList            |             Doubly LinkedList             |
 |-----------------------------------------|-------------------------------------------| 
 |                                         |                                           |
