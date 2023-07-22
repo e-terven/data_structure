@@ -18,6 +18,8 @@ public class Node {
             this.next = null;
         }
 ```
+
+----
 #### LinkedList
 
 ```java
