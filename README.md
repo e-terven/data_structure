@@ -24,11 +24,14 @@ public class Node {
 #### Singly LinkedList vs. Doubly LinkedList
 
 ```no-highlight
-| Таблицы       | Это                | Круто |
-| ------------- |:------------------:| -----:|
-| столбец 3         | выровнен вправо    | $1600 |
-| столбец 2     | выровнен по центру |   $12 |
-| зебра-строки  | прикольные         |    $1 |
+|            Singly LinkedList           |            Doubly LinkedList           | 
+| ---------------------------------------|:--------------------------------------:| 
+|                                        |  public Node removeByData(String data) |
+|   public void addToHead(String data)   |   public void addToHead(String data)   |   
+|   public void addToTail(String data)   |   public void addToTail(String data)   |
+|       public String removeHead()       |       public String removeHead()       |
+|                                        |       public String removeTail()       |
+|                             public void printList()                             |
 ```
 ![alt-image](https://github.com/e-terven/data_structure/blob/7ceab5b7d1f72099725caf9d0bbc2b55bc9b365c/images/Screenshot%202023-07-22%20at%2021.04.23.png)  
 
