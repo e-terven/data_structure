@@ -26,7 +26,7 @@ public class Node {
 
 
 #### References:  
-Codecademy. _"Pass the Technical Interview with Java Skill Path" skillpath.  _
+Codecademy. _"Pass the Technical Interview with Java Skill Path" skillpath._  
 Simple Snippets. _["Doubly Linked List Data Structure"](https://simplesnippets.tech/doubly-linked-list-data-structure-all-operations-c-program-to-implement-doubly-linked-list/)_
 
 
