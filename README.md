@@ -62,7 +62,7 @@ public class Node {
 O(N)  
 O(N^2)  
 O(logN)   
-O(1) - highly efficientas the algorithm is not influenced by _the data unput_ 
+O(1) - highly efficient as the algorithm is not influenced by _the data unput_ 
 
 ----  
 
