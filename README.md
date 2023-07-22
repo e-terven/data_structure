@@ -8,11 +8,11 @@
 
 [ path: src/LinearDataStructure/Node.java ]
 I created a Node class with the fields:    
-_public String data;  
+_....public String data;  
 ....private Node next;  
 ....private Node previous;_   
 and wrote the folloing methods in the Node class:
-_.setNextNode(Node node);_
+_....  public void setNextNode(Node node);_
 _.setPreviousNode(Node node);_
 _.getNextNode(Node node);_
 _.getPreviousNode(Node node);_
