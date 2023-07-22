@@ -23,19 +23,19 @@ public class Node {
 
 
 ```no-highlight
-|           Singly LinkedList            |            Doubly LinkedList           |
-|----------------------------------------|----------------------------------------| 
-|                                        |                                        |
-|  public void addToHead(String data) {}  |   public void addToHead(String data)*  |   
-|   public void addToTail(String data)   |   public void addToTail(String data)*  |
-|----------------------------------------|----------------------------------------|
-|       public String removeHead()       |       public String removeHead()*      |
-|             did not apply              |       public String removeTail()       |
-|----------------------------------------|----------------------------------------| 
-|             did not apply              |  public Node removeByData(String data) |
-|----------------------------------------|----------------------------------------|
-|                             public void printList()                             |
-|---------------------------------------------------------------------------------|
+|            Singly LinkedList            |             Doubly LinkedList             |
+|-----------------------------------------|-------------------------------------------| 
+|                                         |                                           |
+|  public void addToHead(String data) {}  |   public void addToHead(String data) {}*  |   
+|  public void addToTail(String data) {}  |   public void addToTail(String data) {}*  |
+|-----------------------------------------|-------------------------------------------|
+|      public String removeHead() {}      |       public String removeHead() {}*      |
+|              did not apply              |       public String removeTail() {}       |
+|-----------------------------------------|-------------------------------------------| 
+|              did not apply              |  public Node removeByData(String data) {} |
+|-----------------------------------------|-------------------------------------------|
+|                               public void printList()                               |
+|-------------------------------------------------------------------------------------|
 ```
 ![alt-image](https://github.com/e-terven/data_structure/blob/7ceab5b7d1f72099725caf9d0bbc2b55bc9b365c/images/Screenshot%202023-07-22%20at%2021.04.23.png)  
 
