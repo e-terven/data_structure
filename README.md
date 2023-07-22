@@ -22,8 +22,8 @@ public class Node {
   
 
 
-```
-|            Singly LinkedList            |             Doubly LinkedList             |
+
+|          **Singly LinkedList**          |           **Doubly LinkedList**           |
 |-----------------------------------------|-------------------------------------------| 
 |                                         |                                           |
 |  public void addToHead(String data) {}  |   public void addToHead(String data) {}*  |   
