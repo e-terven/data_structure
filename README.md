@@ -8,7 +8,7 @@
 
 [ path: src/LinearDataStructure/Node.java ]   
 Created a Node class with the fields _String data, Node next, Node previous_ and implemented getters and setters  
-![alt-image]()  
+![alt-image](https://github.com/e-terven/data_structure/blob/39639aa04aac755dc68e5dcdc3a24bf1df3957d2/images/Screenshot%202023-07-22%20at%2020.26.49.png)  
 
 
 #### Singly LinkedList
