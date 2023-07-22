@@ -45,7 +45,7 @@ public class Node {
 
 ##### "Runner" Technique
 
-##### Asymptomatic Analysis
+##### Asymptomatic Analysis. Time and Space Complexity
 Space Complexity: O(1) - highly efficientas the algorithm is not influenced by _the data unput_  
 
 ----  
