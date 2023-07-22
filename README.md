@@ -60,9 +60,9 @@ public class Node {
 ##### Asymptomatic Analysis: Time and Space Complexity
 O(1) - highly efficientas the algorithm is not influenced by _the data unput_ 
 
-O(N)
-O(N^2)
-O(logN)
+O(N)  
+O(N^2)  
+O(logN)  
 
 ----  
 
