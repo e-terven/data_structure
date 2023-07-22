@@ -23,18 +23,18 @@ public class Node {
 #### LinkedList
 
 ```java
-|            Singly LinkedList            |             Doubly LinkedList             | |               ArrayList                |
-|-----------------------------------------|-------------------------------------------| |----------------------------------------|
+|        Singly LinkedList        |         Doubly LinkedList         | |               ArrayList                |
+|---------------------------------|-----------------------------------| |----------------------------------------|
 |  public void addToHead(data) {} |  public void addToHead(data) {}*  | |                                        |   
-|    public void addToTail(data) {}   |    public void addToTail(data) {}*    | |                                        |
-|-----------------------------------------|-------------------------------------------| |----------------------------------------|
-|    public String removeHead() {}    |     public String removeHead() {}*    | |                                        |
-|            did not apply            |     public String removeTail() {}     | |                                        |
-|-----------------------------------------|-------------------------------------------| |----------------------------------------| 
-|            did not apply            |   public Node removeByData(data) {}   | |  public String[] removeByData(data) {} |
-|-----------------------------------------|-------------------------------------------| |----------------------------------------|
-|                          public void printList() {}                         | |       public void printList() {}*      |
-|-------------------------------------------------------------------------------------| |----------------------------------------|
+|  public void addToTail(data) {} |  public void addToTail(data) {}*  | |                                        |
+|---------------------------------|-----------------------------------| |----------------------------------------|
+|  public String removeHead() {}  |   public String removeHead() {}*  | |                                        |
+|          did not apply          |   public String removeTail() {}   | |                                        |
+|---------------------------------|-----------------------------------| |----------------------------------------| 
+|          did not apply          | public Node removeByData(data) {} | |  public String[] removeByData(data) {} |
+|---------------------------------|-----------------------------------| |----------------------------------------|
+|                      public void printList() {}                     | |       public void printList() {}*      |
+|---------------------------------------------------------------------| |----------------------------------------|
 ```
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/7ceab5b7d1f72099725caf9d0bbc2b55bc9b365c/images/Screenshot%202023-07-22%20at%2021.04.23.png)  
