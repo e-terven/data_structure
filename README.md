@@ -10,7 +10,8 @@
 ```java
 private String data;
 private Node next;
-private Node previous;```
+private Node previous;
+```
 
 adding getters and setters  
 
