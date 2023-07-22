@@ -26,8 +26,8 @@ public class Node {
 |            Singly LinkedList            |             Doubly LinkedList             |
 |-----------------------------------------|-------------------------------------------| 
 |                                         |                                           |
-|  public void addToHead(int data) {}  |   public void addToHead(String data) {}*  |   
-|  public void addToTail(String data) {}  |   public void addToTail(String data) {}*  |
+|      public void addToHead(data) {}     |      public void addToHead(data) {}*      |   
+|      public void addToTail(data) {}     |      public void addToTail(data) {}*      |
 |-----------------------------------------|-------------------------------------------|
 |      public String removeHead() {}      |       public String removeHead() {}*      |
 |              did not apply              |       public String removeTail() {}       |
