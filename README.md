@@ -71,7 +71,7 @@ public class Node {
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
 O(logN)....binary search  
-O(1).........highly efficient as the algorithm is not influenced by _the data unput_ 
+O(1)..........highly efficient as the algorithm is not influenced by _the data unput_ 
 
 ----  
 
