@@ -70,7 +70,7 @@ public class Node {
 
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
-O(logN)....binary search (sorted set-list required)  
+O(logN)....binary search (sorted set-list required + cut by half during each itegarion)  
 O(1)..........highly efficient as the algorithm is not influenced by _the data unput_ 
 
 ----  
