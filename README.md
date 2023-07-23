@@ -68,9 +68,9 @@ public class Node {
 
 ##### Asymptomatic Analysis: Time and Space Complexity
 
-O(N)  
+O(N) - linear search (first part of the list preffered)
 O(N^2)  
-O(logN)   
+O(logN) - binary search  
 O(1) - highly efficient as the algorithm is not influenced by _the data unput_ 
 
 ----  
