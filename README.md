@@ -71,18 +71,15 @@ public class Node {
           ... is a general way of describing the function's runtime based on the input
           (where we neglect costants and focus on dominant term)
 
-![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)
-
-O(N).........linear search (first part of the list preffered)
-O(N^2)  
+![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
   
-###### Constatnt Runtime: Θ(1) / O(1)..........highly efficient as the algorithm is not influenced by _the data unput_ (e.g. the program use only constants or print the same String);
-###### Logarithmic Runtime: O(logN)....binary search (e.g. search algoriths));
-###### Linear Runtime: O(N): (e.g. linear search (first part of the list preffered)
-###### Θ(N*logN) for sorting algorithms;
-###### Quadratic Runtime Θ(N2): (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
-###### Exponential Runtime Θ(2N): (e.g. recursive algorithms);
-###### Factorial Runtime Θ(N!): to generate all possible ways of arranging ittems in differentt order (aka permutation)
+###### Constatnt Runtime **Θ(1)**: highly efficient as the algorithm is not influenced by _the data unput_ (e.g. the program use only constants or print the same String);  
+###### Logarithmic Runtime **O(logN)**: (e.g. binary search);
+###### Linear Runtime **O(N)**: (e.g. linear search (first part of the list preffered)
+###### **Θ(N*logN)** for sorting algorithms;
+###### Quadratic Runtime **Θ(N2)**: (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
+###### Exponential Runtime **Θ(2N)**: (e.g. recursive algorithms);
+###### Factorial Runtime **Θ(N!)**: to generate all possible ways of arranging ittems in differentt order (aka permutation)
 
 
 ----  
