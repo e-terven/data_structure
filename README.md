@@ -73,14 +73,16 @@ public class Node {
           Thus, Θ(N) + Θ(N*logN) = Θ(N)
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
-  
+
+ ... the most efficient
 ###### Constatnt Runtime **Θ(1)**: highly efficient as the algorithm is not influenced by _the data unput_ (e.g. the program use only constants or print the same String);  
 ###### Logarithmic Runtime **O(logN)**: (e.g. binary search);
 ###### Linear Runtime **O(N)**: (e.g. linear search (first part of the list preffered)
 ###### **Θ(N*logN)** for sorting algorithms;
-###### Quadratic Runtime **Θ(N2)**: (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
-###### Exponential Runtime **Θ(2N)**: (e.g. recursive algorithms);
-###### Factorial Runtime **Θ(N!)**: to generate all possible ways of arranging ittems in differentt order (aka permutation)
+###### Quadratic Runtime **Θ(N^2)**: (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
+###### Exponential Runtime **Θ(2^N)**: (e.g. recursive algorithms);
+###### Factorial Runtime **Θ(N!)**: to generate all possible ways of arranging ittems in differentt order (aka permutation)     
+... the least efficient
 ----
 
 *** Big Omega (Ω) for the best case *** Big O (O) for the worst case *** Big Theta (Θ) for onle case scenario ***
