@@ -75,8 +75,15 @@ public class Node {
 
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
-O(logN)....binary search (sorted set-list required + cut by half during each itegarion)  
-O(1)..........highly efficient as the algorithm is not influenced by _the data unput_ 
+  
+###### Constatnt Runtime: Θ(1) / O(1)..........highly efficient as the algorithm is not influenced by _the data unput_ (e.g. the program use only constants or print the same String);
+###### Logarithmic Runtime: O(logN)....binary search (e.g. search algoriths));
+###### Linear Runtime: O(N): (e.g. linear search (first part of the list preffered)
+###### Θ(N*logN) for sorting algorithms;
+###### Quadratic Runtime Θ(N2): (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
+###### Exponential Runtime Θ(2N): (e.g. recursive algorithms);
+###### Factorial Runtime Θ(N!): to generate all possible ways of arranging ittems in differentt order (aka permutation)
+
 
 ----  
 
