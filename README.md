@@ -69,7 +69,7 @@ public class Node {
 
 ##### Asymptomatic Notation (Time and Space Complexity)
           ... is a general way of describing the function's runtime based on the input
-          (where we neglect costants and focus on dominant term)
+          Adding Runime (when we neglect costants and focus on a dominant term) (e.g. Θ(N) + Θ(N*logN) = Θ(N))
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
   
