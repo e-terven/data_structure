@@ -57,7 +57,8 @@ public class Node {
 | ------------------------------------------------------------------------------------------------------------|
 |                                          <<<  Big O Notation  >>>                                           |
 | ------------------------------------------------------------------------------------------------------------|   
-|      Time Complexity: O(N)      |                                   | |       Time Complexity: O(logN)      |      |          (head/tail): O(1)      |                                   | |                                     |
+|      Time Complexity: O(N)      |                                   | |       Time Complexity: O(logN)      |
+|          (head/tail): O(1)      |                                   | |                                     |
 |      Space Complexity: O(1)     |                                   | |                                     |
 |-------------------------------------------------------------------------------------------------------------|
 ```
@@ -66,7 +67,9 @@ public class Node {
 
 ##### "Runner" Technique
 
-##### Asymptomatic Analysis: Time and Space Complexity
+##### Asymptomatic Notation (Time and Space Complexity)
+          ... is a general way of describing the function's runtime based on the input
+          (where we neglect costants and focus on dominant term)
 
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
