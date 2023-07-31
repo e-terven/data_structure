@@ -74,7 +74,7 @@ public class Node {
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
 
- ... the most efficient
+_... the most efficient_
 ###### Constatnt Runtime **Θ(1)**: highly efficient as the algorithm is not influenced by _the data unput_ (e.g. the program use only constants or print the same String);  
 ###### Logarithmic Runtime **O(logN)**: (e.g. binary search);
 ###### Linear Runtime **O(N)**: (e.g. linear search (first part of the list preffered)
@@ -82,7 +82,8 @@ public class Node {
 ###### Quadratic Runtime **Θ(N^2)**: (e.g.search through a two-dimensional dataset (like a matrix) or nested loops);
 ###### Exponential Runtime **Θ(2^N)**: (e.g. recursive algorithms);
 ###### Factorial Runtime **Θ(N!)**: to generate all possible ways of arranging ittems in differentt order (aka permutation)     
-... the least efficient    
+_... the least efficient_   
+
 
 ----
 
