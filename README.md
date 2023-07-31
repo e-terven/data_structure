@@ -81,6 +81,7 @@ public class Node {
 ###### Exponential Runtime **Θ(2N)**: (e.g. recursive algorithms);
 ###### Factorial Runtime **Θ(N!)**: to generate all possible ways of arranging ittems in differentt order (aka permutation)
 
+Big Omega (Ω) - for the worst case ** Big O (O) - for the best case ** Big Theta (Θ) - for onle case scenario
 
 ----  
 
