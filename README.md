@@ -71,7 +71,7 @@ public class Node {
           ... is a general way of describing the function's runtime based on the input
           (where we neglect costants and focus on dominant term)
 
-![alt-image](https://github.com/e-terven/data_structure/blob/b2897b406fc2c1b7cf8a1925f589922e92bc940d/images/common_runtime%202023-08-01%20at%2000.04.21.png)
+![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)
 
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
