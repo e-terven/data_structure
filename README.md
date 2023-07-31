@@ -71,6 +71,8 @@ public class Node {
           ... is a general way of describing the function's runtime based on the input
           (where we neglect costants and focus on dominant term)
 
+![alt-image](https://github.com/e-terven/data_structure/blob/b2897b406fc2c1b7cf8a1925f589922e92bc940d/images/common_runtime%202023-08-01%20at%2000.04.21.png)
+
 O(N).........linear search (first part of the list preffered)
 O(N^2)  
 O(logN)....binary search (sorted set-list required + cut by half during each itegarion)  
