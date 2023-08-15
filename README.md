@@ -2,7 +2,7 @@
 
 ### Context
 #### Linear Data Structure   
-......> Linked List / Doubly Linked List  
+......>> Linked List / Doubly Linked List  
 ......> Queue  
 ......> Stack  
 #### Nonlinear Data Structure   
