@@ -1,5 +1,27 @@
 # Data Structure
 
+##### Context
+###### Linear Data Structure   
+........ Linked List / Doubly Linked List
+........ Queue  
+........ Stack  
+###### Nonlinear Data Structure   
+........ Tree  
+........ Binary Search Tree  
+........ Heap (MinHeap / MaxHeap)
+###### Hash Map  
+###### Algorithmic Concepts  
+........ Recursion  
+........ Algorithmic Complexity  
+###### Sorting Algorithms  
+........ Bubble Sort  
+........ Merge Sort  
+........ Quicksort  
+###### Graph Data Structure  
+........ Graph Traversal  
+........ Dijkstra's Algorithm  
+
+
 #### Node
 - a basic data structure which contain _data_ and one or more _links_ to other nodes
 - can be used to represent a _linear_ structure - **LinkedList** / _nonlinear_ structure - **Tree**  
