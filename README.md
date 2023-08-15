@@ -7,7 +7,7 @@
 * Tree  /  Binary Search Tree  /  minHeap-maxHeap      
 #### Hash Map 
 #### Graph Data Structure  
-* Graph Traversal  /  Dijkstra's Algorithm     
+* Graph Traversal DFS - BFS /  Dijkstra's Algorithm     
 #### Algorithmic Concepts  
 * Recursion  /  Algorithmic Complexity   
 #### Sorting Algorithms  
