@@ -4,7 +4,7 @@
 #### Linear Data Structure   
 * Linked List  /  Doubly Linked List  /  Queue  /  Stack     
 #### Nonlinear Data Structure   
-* Tree  /  Binary Search Tree  /  Heap (MinHeap-MaxHeap)    
+* Tree  /  Binary Search Tree  /  Heap (minHeap-maxHeap)    
 #### Hash Map 
 #### Graph Data Structure  
 * Graph Traversal  /  Dijkstra's Algorithm     
