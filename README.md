@@ -2,9 +2,9 @@
 
 ### Context
 #### Linear Data Structure   
-......>> Linked List / Doubly Linked List  
-......> Queue  
-......> Stack  
+...... Linked List / Doubly Linked List  
+...... Queue  
+...... Stack  
 #### Nonlinear Data Structure   
 ........ Tree  
 ........ Binary Search Tree  
