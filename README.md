@@ -2,19 +2,17 @@
 
 ### Context
 #### Linear Data Structure   
-* Linked List / Doubly Linked List * Queue * Stack *  
+* Linked List * Doubly Linked List * Queue * Stack *  
 #### Nonlinear Data Structure   
 * Tree * Binary Search Tree * Heap (MinHeap / MaxHeap) *  
-#### Hash Map  
-#### Algorithmic Concepts  
-* Recursion * Algorithmic Complexity *  
-#### Sorting Algorithms  
-...... Bubble Sort  
-...... Merge Sort  
-...... Quicksort  
+#### Hash Map 
 #### Graph Data Structure  
-...... Graph Traversal  
-...... Dijkstra's Algorithm  
+* Graph Traversal * Dijkstra's Algorithm *   
+#### Algorithmic Concepts  
+* Recursion * Algorithmic Complexity *   
+#### Sorting Algorithms  
+*  Bubble Sort * Merge Sort * Quicksort *  
+  
 
 
 #### Node
