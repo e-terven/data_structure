@@ -6,20 +6,20 @@
 ...... Queue  
 ...... Stack  
 #### Nonlinear Data Structure   
-........ Tree  
-........ Binary Search Tree  
-........ Heap (MinHeap / MaxHeap)
+...... Tree  
+...... Binary Search Tree  
+...... Heap (MinHeap / MaxHeap)
 #### Hash Map  
 #### Algorithmic Concepts  
-........ Recursion  
-........ Algorithmic Complexity  
+...... Recursion  
+...... Algorithmic Complexity  
 #### Sorting Algorithms  
-........ Bubble Sort  
-........ Merge Sort  
-........ Quicksort  
+...... Bubble Sort  
+...... Merge Sort  
+...... Quicksort  
 #### Graph Data Structure  
-........ Graph Traversal  
-........ Dijkstra's Algorithm  
+...... Graph Traversal  
+...... Dijkstra's Algorithm  
 
 
 #### Node
