@@ -114,13 +114,13 @@ _... the least efficient_
 
 **Traversal Methods:**  
 PRE-Order Traversal:  start at the ROOT node + BFS (e.g. to create a copy of the tree or graph)     
-_visit current node, left subtree, right subtree_  
+>> _visit current node, left subtree, right subtree_  
   
 POST-Order Traversal: start at the ROOT node but visit children before their parent (e.g. to delete the tree or graph)  
-_traverse left subtree, right subtree, visit current node_  
+>> _traverse left subtree, right subtree, visit current node_  
   
 Reverse POST-Order Traversal  
-_visit current node, traverse right subtree in reverse post-order, traverse left subtree in reverse post-order_  
+>> _visit current node, traverse right subtree in reverse post-order, traverse left subtree in reverse post-order_  
 
 
 #### References:  
