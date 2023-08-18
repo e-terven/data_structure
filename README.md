@@ -110,7 +110,7 @@ _... the least efficient_
 [ _is useful for determining whether a path exists between two points - find out if the solution exists for a maze_ ]      
 
 **BFS Breadth-First Search** visits every conection before moving forward (by using a Queue)     
-[ _is helpful in finding the shortest path between two points_- useful for map navigation (GPS system) tools because it helps determine the shortest path between two vertices ]
+[ _is helpful in finding the shortest path between two points_ - useful for map navigation (GPS system) tools because it helps determine the shortest path between two vertices ]
 
 **Traversal Methods:**  
 PRE-Order Traversal:  start at the ROOT node + BFS (e.g. to create a copy of the tree or graph)     
