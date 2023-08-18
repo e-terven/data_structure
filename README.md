@@ -106,9 +106,12 @@ _... the least efficient_
 
 ----  
 
+**DFS Depth-First Search** moves forward every time visiting a new vertex
+**BFS Breadth-First Search** visits every conection before moving forward
+
 #### References:  
 Codecademy. _"Pass the Technical Interview with Java"_ Skill Path      
 Simple Snippets. _["Doubly Linked List Data Structure"](https://simplesnippets.tech/doubly-linked-list-data-structure-all-operations-c-program-to-implement-doubly-linked-list/)_
 
-
+happy coding!
 
