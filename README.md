@@ -106,8 +106,8 @@ _... the least efficient_
 
 ----  
 
-**DFS Depth-First Search** moves forward every time visiting a new vertex
-**BFS Breadth-First Search** visits every conection before moving forward
+**DFS Depth-First Search** moves forward every time visiting a new vertex (by using a Stack)
+**BFS Breadth-First Search** visits every conection before moving forward (by using a Queue)
 
 #### References:  
 Codecademy. _"Pass the Technical Interview with Java"_ Skill Path      
