@@ -113,7 +113,7 @@ _... the least efficient_
 [ _is helpful in finding the shortest path between two points_ - useful for map navigation (GPS system) tools because it helps determine the shortest path between two vertices ]
 
 **Traversal Methods:**  
-PRE-Order Traversal:  start at the ROOT node + BFS (e.g. to create a copy of the tree or graph)     
+PRE-Order Traversal:  start at the ROOT node + DFS (e.g. to create a copy of the tree or graph)     
 >> _visit current node, left subtree, right subtree_  
   
 POST-Order Traversal: start at the ROOT node but visit children before their parent (e.g. to delete the tree or graph)  
