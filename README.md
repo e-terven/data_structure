@@ -107,7 +107,9 @@ _... the least efficient_
 ----  
 
 **DFS Depth-First Search** moves forward every time visiting a new vertex (employs a Stack or Recursion)
+[ _is useful for determining whether a path exists between two points _]
 **BFS Breadth-First Search** visits every conection before moving forward (by using a Queue)
+[ _is helpful in finding the shortest path between two points_ ]
 
 #### References:  
 Codecademy. _"Pass the Technical Interview with Java"_ Skill Path      
