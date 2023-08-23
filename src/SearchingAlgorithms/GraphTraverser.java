@@ -1,5 +1,7 @@
-package NonlinearDataStructure;
+package SearchingAlgorithms;
 import LinearDataStructure.Queue;
+import NonlinearDataStructure.Graphs.Edge;
+import NonlinearDataStructure.Graphs.Vertex;
 
 import java.util.ArrayList;
 
