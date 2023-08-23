@@ -85,7 +85,7 @@ public class Node {
 ##### Asymptomatic Notation (Time and Space Complexity)
           ... is a general way of describing the function's runtime based on the input
           Adding Runime (when we neglect costants and focus on a dominant term) 
-          Thus, Θ(N) + Θ(N*logN) = Θ(N)
+          Thus, Θ(N) + Θ(N*logN) = Θ(N)         
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
 
@@ -105,6 +105,10 @@ _... the least efficient_
 *** Big Omega (Ω) for the best case *** Big O (O) for the worst case *** Big Theta (Θ) for onle case scenario ***
 
 ----  
+##### Sorting Algorithms
+![alt-image]() 
+
+
 
 **DFS Depth-First Search** moves forward every time visiting a new vertex (employs a Stack or Recursion)  
 [ _is useful for determining whether a path exists between two points - find out if the solution exists for a maze_ ]      
