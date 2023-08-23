@@ -1,4 +1,5 @@
-package NonlinearDataStructure;
+package NonlinearDataStructure.Graphs;
+
 public class Edge {
     private Vertex start;
     private Vertex end;

@@ -1,7 +1,7 @@
 package NonlinearDataStructure.Tasks_Nonlinear;
 
-import NonlinearDataStructure.Graph;
-import NonlinearDataStructure.Vertex;
+import NonlinearDataStructure.Graphs.Graph;
+import NonlinearDataStructure.Graphs.Vertex;
 
 public class TrainNetwork {
     public static void main(String[] args) {

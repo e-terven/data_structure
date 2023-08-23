@@ -1,6 +1,6 @@
 package LinearDataStructure;
 
-import NonlinearDataStructure.Vertex;
+import NonlinearDataStructure.Graphs.Vertex;
 
 public class Queue {
 

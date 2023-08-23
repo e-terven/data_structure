@@ -1,11 +1,13 @@
 package LinearDataStructure;
 
-import NonlinearDataStructure.Vertex;
+import NonlinearDataStructure.Graphs.Vertex;
+import NonlinearDataStructure.HashMaps.NodeMap;
 
 public class LinkedList {
 
     public Node head;
     public Vertex root;
+    public NodeMap headMap;
 
     public LinkedList() {
         this.head = null;
@@ -62,6 +64,8 @@ public class LinkedList {
         node2.setNextNode(temp);
     }
 
+
+    // LinkedList
     public void addToHead(String data) {
         Node newHead = new Node(data);
         Node currentHead = this.head;
@@ -83,6 +87,7 @@ public class LinkedList {
         }
     }
 
+    // Graphs
     public void addToTailVertex(Vertex data) {
         Vertex tail = this.root;
         if (tail == null) {
@@ -92,6 +97,28 @@ public class LinkedList {
                 tail = tail.getNextVertex();
             }
             tail.setNextVertex(data);
+        }
+    }
+
+    // Map
+    public void addToHeadMap(String key, String value) {
+        NodeMap newHead = new NodeMap(key, value);
+        Node currentHead = this.head;
+        this.headMap = newHead;
+        if (currentHead != null) {
+            this.head.setNextNode(currentHead);
+        }
+    }
+
+    public void addToTailMap(String key, String value) {
+        NodeMap tail = this.headMap;
+        if (tail == null) {
+            this.headMap = new NodeMap(key, value);
+        } else {
+            while (tail.getNextNode() != null) {
+                tail = tail.getNextNode();
+            }
+            tail.setNextNode(new NodeMap(key, value));
         }
     }
 

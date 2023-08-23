@@ -1,4 +1,4 @@
-package NonlinearDataStructure;
+package NonlinearDataStructure.Graphs;
 
 import java.util.ArrayList;
 

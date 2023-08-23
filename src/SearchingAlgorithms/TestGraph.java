@@ -1,4 +1,7 @@
-package NonlinearDataStructure;
+package SearchingAlgorithms;
+
+import NonlinearDataStructure.Graphs.Graph;
+import NonlinearDataStructure.Graphs.Vertex;
 
 class TestGraph {
     private final Graph testGraph;
