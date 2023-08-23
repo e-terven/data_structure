@@ -106,7 +106,7 @@ _... the least efficient_
 
 ----  
 ##### Sorting Algorithms
-![alt-image](https://github.com/e-terven/data_structure/blob/87b9fdb9e7dfb7bac66f7ab7e8297519fc16796a/images/Screenshot%202023-08-23%20at%2019.07.27.png) 
+![alt-image](https://github.com/e-terven/data_structure/blob/87b9fdb9e7dfb7bac66f7ab7e8297519fc16796a/images/Screenshot%202023-08-23%20at%2019.07.27.png)   
 
 
 
