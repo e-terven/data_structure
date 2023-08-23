@@ -1,4 +1,4 @@
-package SearchingAlgorithms;
+package SearchAlgorithms;
 
 import NonlinearDataStructure.Graphs.Graph;
 import NonlinearDataStructure.Graphs.Vertex;

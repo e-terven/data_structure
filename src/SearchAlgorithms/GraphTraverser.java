@@ -1,4 +1,4 @@
-package SearchingAlgorithms;
+package SearchAlgorithms;
 import LinearDataStructure.Queue;
 import NonlinearDataStructure.Graphs.Edge;
 import NonlinearDataStructure.Graphs.Vertex;
