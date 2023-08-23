@@ -122,6 +122,16 @@ POST-Order Traversal: start at the ROOT node but visit children before their par
 Reverse POST-Order Traversal  
 >> _visit current node, traverse right subtree in reverse post-order, traverse left subtree in reverse post-order_  
 
+RUNTIME: O(E + V)
+
+**Dijkstra's Algorithm:**  
+- to find all of the shortest distances between a start vertex and the rest of the vertices in a graph
+
+RUNTIME: 0((E + V) logV)
+(in the worst case... (V+E)loop iterations x (logV) to update minHeap each iteration)
+Dijkstra’s Algorithm does not work with negative edge weights
+
+
 
 #### References:  
 Codecademy. _"Pass the Technical Interview with Java"_ Skill Path      
