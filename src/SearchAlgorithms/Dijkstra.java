@@ -1,5 +1,6 @@
 package SearchAlgorithms;
 
+import NonlinearDataStructure.Graphs.Edge;
 import NonlinearDataStructure.Graphs.Graph;
 import NonlinearDataStructure.Graphs.Vertex;
 
@@ -7,37 +8,64 @@ import NonlinearDataStructure.Graphs.Vertex;
 import java.util.Dictionary; // legacy interface --> use Map!
 import java.util.Enumeration;  // legacy interface
 import java.util.Hashtable; // class == implementation of the Dictionary --> use HashMap!
+import java.util.PriorityQueue;
+import java.util.ArrayList;
 
 
-import java.util.*;
 
 public class Dijkstra {
 
     public static Dictionary[] dijkstra (Graph g, Vertex startingVertex){
-        Dictionary<String, Integer> distances = new Hashtable<>();
-        Dictionary<String, Vertex> previous = new Hashtable<>();
+        Dictionary<String, Integer> distances = new Hashtable<>(); // track of how far each vertex is from the starting vertex
+        Dictionary<String, Vertex> previous = new Hashtable<>(); // keeps track of the preceding vertices in the path
+        PriorityQueue<QueueObject> queue = new PriorityQueue<QueueObject>();
 
+        queue.add(new QueueObject(startingVertex, 0));
 
         for (Vertex v: g.getVertices()) {
-            distances.put(v.getData(), Integer.MAX_VALUE);
+            if(v != startingVertex){
+                distances.put(v.getData(), Integer.MAX_VALUE);
+            }
             previous.put(v.getData(), new Vertex("Null"));
         }
 
         distances.put(startingVertex.getData(), 0);
 
 
-        Vertex current = startingVertex;
-
-        for (Edge e: current.getEdges()) {
-            Integer alternate = e.getWeight() + distances.get(current.getData());
-            String neighborValue = e.getEnd().getData();
-            if (alternate < distances.get(neighborValue)) {
-                distances.put(neighborValue, alternate);
-                previous.put(neighborValue, current);
+        while(queue.size() != 0){
+            Vertex current = queue.poll().vertex;
+            for (Edge e: current.getEdges()) {
+                Integer alternate = distances.get(current.getData()) + e.getWeight();
+                String neighborValue = e.getEnd().getData();
+                if (alternate < distances.get(neighborValue)){
+                    distances.put(neighborValue, alternate);
+                    previous.put(neighborValue, current);
+                    queue.add(new QueueObject(e.getEnd(), distances.get(neighborValue)));
+                }
             }
         }
 
         return new Dictionary[]{distances, previous};
+    }
+
+    public static void shortestPathBetween(Graph g, Vertex startingVertex, Vertex targetVertex){
+        Dictionary[] dijkstraDicts = dijkstra(g, startingVertex);
+        Dictionary distances = dijkstraDicts[0];
+        Dictionary previous = dijkstraDicts[1];
+        Integer distance = (Integer) distances.get(targetVertex.getData());
+        System.out.println("Shortest Distance between " + startingVertex.getData() + " and " + targetVertex.getData());
+        System.out.println(distance);
+
+        ArrayList<Vertex> path = new ArrayList<>();
+        Vertex v = targetVertex;
+        while(v.getData() != "Null"){
+            path.add(0,v);
+            v = (Vertex) previous.get(v.getData());
+        }
+        System.out.println("Shortest Path");
+        for (Vertex pathVertex: path){
+            System.out.println(pathVertex.getData());
+        }
     }
 
     public static void dijkstraResultPrinter(Dictionary[] d){
@@ -75,5 +103,7 @@ public class Dijkstra {
         testGraph.addEdge(e, g, -50);
 
         dijkstraResultPrinter(dijkstra(testGraph, a));
+        shortestPathBetween(testGraph, a, g);
     }
 }
+
