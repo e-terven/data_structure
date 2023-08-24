@@ -82,10 +82,13 @@ public class Node {
 
 ##### "Runner" Technique
 
+----
+![alt-image](https://github.com/e-terven/data_structure/blob/af987c8b3c3742cc589b3fd61ea541a60a811c84/images/Screenshot%202023-08-24%20at%2014.14.02.png)
+
 ##### Asymptomatic Notation (Time and Space Complexity)
           ... is a general way of describing the function's runtime based on the input
           Adding Runime (when we neglect costants and focus on a dominant term) 
-          Thus, Θ(N) + Θ(N*logN) = Θ(N)
+          Thus, Θ(N) + Θ(N*logN) = Θ(N)         
 
 ![alt-image](https://github.com/e-terven/data_structure/blob/12bad7a9f04cb61eeebbfdfd5223f1da581b213d/images/common_runtime%202023-08-01%20at%2000.04.21.png)  
 
@@ -105,6 +108,10 @@ _... the least efficient_
 *** Big Omega (Ω) for the best case *** Big O (O) for the worst case *** Big Theta (Θ) for onle case scenario ***
 
 ----  
+##### Sorting Algorithms
+![alt-image](https://github.com/e-terven/data_structure/blob/87b9fdb9e7dfb7bac66f7ab7e8297519fc16796a/images/Screenshot%202023-08-23%20at%2019.07.27.png)   
+
+
 
 **DFS Depth-First Search** moves forward every time visiting a new vertex (employs a Stack or Recursion)  
 [ _is useful for determining whether a path exists between two points - find out if the solution exists for a maze_ ]      
