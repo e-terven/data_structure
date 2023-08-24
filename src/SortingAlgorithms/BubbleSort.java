@@ -10,7 +10,7 @@ public class BubbleSort {
             swapping = false;
             for (int i = 0; i < input.length - 1; i++) {
                 if (input[i] > input[i + 1]) {
-                    System.out.println(String.format("Swapping pair %d, %d", input[i], input[i + 1]));
+                    System.out.printf("Swapping pair %d, %d%n", input[i], input[i + 1]);
                     Swap.swap(input, i, i + 1);
                     System.out.println(Arrays.toString(input));
                     swapping = true;
@@ -18,14 +18,6 @@ public class BubbleSort {
             }
         }
         return input;
-    }
-
-    public class Swap {
-        public static void swap(int[] arr, int indexOne, int indexTwo) {
-            int temp = arr[indexTwo];
-            arr[indexTwo] = arr[indexOne];
-            arr[indexOne] = temp;
-        }
     }
 
     public static void main(String[] args) {
